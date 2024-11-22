@@ -1,0 +1,76 @@
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.row-container{
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.booked {
+  background-color: rgb(234, 88, 88);
+  border: 1px solid red;
+}
+
+.notBooked {
+  background-color: rgb(52, 201, 52);
+  border: 1px solid aquamarine;
+}
+.seat {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.book-btn {
+  cursor: pointer;
+  margin-top: 1rem;
+  background-color: rgb(6, 181, 6);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.book-btn:hover {
+  background-color: rgb(6, 140, 6);
+}
+
+.seats-container{
+  background: url();
+}
+.ground-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background:url('https://img.freepik.com/free-vector/show-dance-floor-vector-background-with-spotlights-party-concert-stage-floor-illustration_1284-42341.jpg?t=st=1731493665~exp=1731497265~hmac=6bf4d0f3bbd125efc8f14c5efb05bd9e46f1c5d7e64383a56cabd89bbdbdc0e2&w=740');
+  background-size: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
